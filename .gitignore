@@ -1,0 +1,40 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Builds & Outputs
+dist/
+build/
+.vite/
+
+# Python & Machine Learning
+ml-service/__pycache__/
+ml-service/*.pkl
+ml-service/*.csv
+ml-service/.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs and databases
+backend/data/*.json
+backend/data/*.csv
+*.log
+.system_generated/
+tasks/
+walkthrough.md
+task.md
+implementation_plan.md
+
+# OS specific files
+.DS_Store
+Thumbs.db
